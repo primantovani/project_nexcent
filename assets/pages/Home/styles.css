@@ -1,0 +1,181 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: "Catamaran", sans-serif;
+}
+
+header{
+    width: 100%;
+    height: 58px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.nav-logo{
+    margin-left: 44px;
+}
+
+.nav-links{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    gap: 16px;
+    margin-right: 44px;
+}
+
+.nav-links a{
+    justify-content: space-between;
+    padding: 10px 20px;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+
+.register {
+    background-color: #4CAF4F;
+    color: white;
+    height: 40px;
+    border-radius: 1.3px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-section {
+    width: 100%;
+    height: 400px;
+    background-color: #F5F7FA;
+    display: flex;
+    position: relative;
+    
+}
+
+.hero-text{
+    width: 30%;
+    height: 40%;
+    align-items: center;
+    margin-left: 10%;
+    margin-top: 5%;
+}
+
+.hero-section button {
+    background-color: #28CB8B;
+    margin: 20px auto;
+    width: 90px;
+    height: 36px;
+    border-radius: 5%;
+    color: #F5F7FA;
+}
+
+.hero-text p:nth-child(1) {
+    color: #4D4D4D;
+    font-size: 42px;
+}
+
+.hero-text p:nth-child(2) {
+    color: #28CB8B;
+    font-size: 42px;
+}
+
+.hero-text p:nth-child(3) {
+    color: #4D4D4D;
+    font-size: 12px;
+}
+
+.hero-ilustration img {
+    width: 15%;
+    justify-content: flex-end;
+    align-self: flex-end;
+    position: absolute;
+    bottom: 12%;
+    right: 10%;
+}
+
+.clients-hero{
+    width: 100%;
+    height: 200px;
+
+
+
+}
+
+.clients-text{
+    align-items: center;
+    justify-content: center;
+    margin-top: 5%;
+    text-align: center;
+}
+
+.clients-text p:nth-child(1) {
+    color: #070707;
+    font-size: 24px;
+}
+
+.clients-text p:nth-child(2) {
+    color: #070707;
+    font-size: 12px;
+}
+.clients-logo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 5%;
+
+}
+
+.clients-logo img{
+    width: 3%;
+    justify-content: center;
+    margin: 0 80px;
+}
+
+@media(max-width: 1000px) {
+    .hero-section {
+        width: 100%;
+        height: 400px;
+        background-color: #165dc7;
+        display: flex;
+        position: relative;
+        
+    }
+
+    .hero-ilustration img {
+        width: 22%;
+        justify-content: flex-end;
+        align-self: flex-end;
+        position: absolute;
+        bottom: 12%;
+        right: 10%;
+    }
+
+
+}
+
+.description {
+    display: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.title {
+    width: 100%;
+    text-align: center;
+    padding-top: 64px;
+}
+
+.title p:nth-child(1) {
+    color: #070707;
+    font-size: 24px;
+}
+
+.title p:nth-child(2) {
+    color: #070707;
+    font-size: 12px;
+}
