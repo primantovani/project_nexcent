@@ -1,6 +1,6 @@
 # Nexcent - Gerenciamento de Comunidade
 
-![Nexcent Logo](../../images/logo-nexcent.png)
+![Nexcent Logo](assets/images/logo-nexcent.png)
 
 ## Sobre o Projeto
 
