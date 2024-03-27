@@ -17,6 +17,10 @@ header{
 
 }
 
+.menu {
+    display: none;
+}
+
 .nav-logo{
     margin-left: 44px;
 }
@@ -42,18 +46,13 @@ header{
     color: white;
     height: 40px;
     border-radius: 1.3px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
 }
 
 .hero-section {
+    background-color: #822f0c;
     width: 100%;
-    height: 400px;
     background-color: #F5F7FA;
     display: flex;
-    position: relative;
-    
 }
 
 .hero-text{
@@ -62,6 +61,7 @@ header{
     align-items: center;
     margin-left: 10%;
     margin-top: 5%;
+    flex-direction: row;
 }
 
 .hero-section button {
@@ -88,14 +88,6 @@ header{
     font-size: 12px;
 }
 
-.hero-ilustration img {
-    width: 15%;
-    justify-content: flex-end;
-    align-self: flex-end;
-    position: absolute;
-    bottom: 12%;
-    right: 10%;
-}
 
 .clients-hero{
     width: 100%;
@@ -136,14 +128,6 @@ header{
 }
 
 
-
-.description {
-    display: row;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-}
-
 .title {
     width: 100%;
     text-align: center;
@@ -160,26 +144,59 @@ header{
     font-size: 12px;
 }
 
-@media(max-width: 479px) {
-    .hero-section {
+@media(max-width: 767px) {
+    header{
+        width: 100%;
         display: flex;
+        justify-content: space-between;
         align-items: center;
-        justify-content: center;
+    }
+
+    .menu {
+        display: block;
+    }
+    
+    .nav-logo{
+        margin-left: 44px;
+    }
+    
+    .nav-links{
+        display: none;
+        flex-direction: row;
+        align-items: center;
+        padding: 0px;
+        gap: 16px;
+        margin-right: 44px;
+    }
+    
+    .nav-links a{
+        justify-content: space-between;
+        padding: 10px 20px;
+        text-decoration: none;
+        color: rgb(0, 0, 0);
+    }
+    
+    .register {
+        background-color: #4CAF4F;
+        color: white;
+        height: 40px;
+        border-radius: 1.3px;
+    }
+    
+    .hero-section {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
         
     }
 
-    .hero-ilustration img {
-        width: 50%;
-        height: 50%;
-        align-items: center;
-        justify-content: center;
-    }
 
     .hero-text{
         width: 100%;
-        height: 60%;
         align-items: center;
-
+        margin-left: 10%;
+        margin-top: 5%;
+        flex-direction: column;
     }
     
     .hero-section button {
@@ -213,6 +230,11 @@ header{
         border-radius: 5%;
         color: #F5F7FA;
         font-size: 12px;
+    }
+
+    .hero-section img{
+        width: 50%;
+        height: 50%;
     }
 
 
