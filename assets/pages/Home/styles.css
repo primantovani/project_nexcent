@@ -135,27 +135,7 @@ header{
     margin: 0 80px;
 }
 
-@media(max-width: 1000px) {
-    .hero-section {
-        width: 100%;
-        height: 400px;
-        background-color: #165dc7;
-        display: flex;
-        position: relative;
-        
-    }
 
-    .hero-ilustration img {
-        width: 22%;
-        justify-content: flex-end;
-        align-self: flex-end;
-        position: absolute;
-        bottom: 12%;
-        right: 10%;
-    }
-
-
-}
 
 .description {
     display: row;
@@ -178,4 +158,62 @@ header{
 .title p:nth-child(2) {
     color: #070707;
     font-size: 12px;
+}
+
+@media(max-width: 479px) {
+    .hero-section {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        
+    }
+
+    .hero-ilustration img {
+        width: 50%;
+        height: 50%;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .hero-text{
+        width: 100%;
+        height: 60%;
+        align-items: center;
+
+    }
+    
+    .hero-section button {
+        margin: 20px auto;
+        width: 90px;
+        height: 36px;
+        border-radius: 5%;
+        color: #F5F7FA;
+    }
+
+    .hero-text p:nth-child(1) {
+        color: #060505;
+        font-size: 22px;
+    }
+    
+    .hero-text p:nth-child(2) {
+        color: #000000;
+        font-size: 22px;
+    }
+    
+    .hero-text p:nth-child(3) {
+        color: #4D4D4D;
+        font-size: 12px;
+    }
+
+    .hero-section button {
+        background-color: #28CB8B;
+        margin: 10px auto;
+        width: 70px;
+        height: 26px;
+        border-radius: 5%;
+        color: #F5F7FA;
+        font-size: 12px;
+    }
+
+
 }
