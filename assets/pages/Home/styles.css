@@ -9,14 +9,13 @@ body{
 
 
 }
-
+/* section 1 NAV */
 header{
     max-width: 100%;
     height: 58px;
     display: flex;
     justify-content: space-between;
     align-items: center;
-
 }
 
 .menu {
@@ -52,13 +51,13 @@ header{
 
 }
 
+/* section 2 */
 .hero-section {
     width: 1140px;
     background-color: #F5F7FA;
     display: flex;
     margin: auto;
     justify-content: space-around;
-
 }
 
 
@@ -97,7 +96,7 @@ header{
     font-size: 12px;
 }
 
-
+/* section 3 */
 .clients-hero{
     width: 100%;
     height: 200px;
@@ -203,7 +202,7 @@ header{
     margin: 3%;
 }
 
-/*section 5*/
+/*section 5, 7*/
 
 .container-horizontal {
     max-width: 1140px;
@@ -227,6 +226,7 @@ header{
     width: 40%;
     display: flex;
     justify-content: space-around;
+    margin: 6%;
 }
 
 .text-wrapper a{
@@ -352,6 +352,97 @@ header{
     color: rgb(0, 0, 0);
     font-size: 18px;
     }
+
+/*section 8*/
+
+.container-horizontal {
+    max-width: 1140px;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+   
+    }
+
+.text-wrapper-8{
+    grid-column-gap: 10px;
+    grid-row-gap: 10px;
+    flex-direction: column;
+    flex: 1;
+    display: flex;
+    max-width: 60%;
+    margin-bottom: 5%;
+}
+
+.image-wrapper{
+    width: 40%;
+    display: flex;
+    justify-content: space-around;
+    margin: 6%;
+}
+
+.meet {
+    color: #4CAF4F;
+    text-decoration: none;
+    align-items: center;
+    display: flex;
+    font-size: 18px;
+    }
+
+
+.text-wrapper-8 p:nth-child(1) {
+    color: #4D4D4D;
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-top: 10%;
+    margin-bottom: 10%;
+    }
+    
+.text-wrapper-8 p:nth-child(2) {
+    display: block;
+    font-size: 18px;
+    color: #4CAF4F;
+    }
+
+.text-wrapper-8 p:nth-child(3) {
+    display: block;
+    font-size: 12px;
+    color:#4D4D4D;
+    }
+
+.clients-logo-8{
+    justify-content:space-between;
+    display: flex;
+    align-items: center;
+}
+
+/*section 9*/
+.section-9 {
+    max-width: 1140px;
+    margin: auto;
+    display: block;
+}
+
+.text-wrapper-9 {
+    max-width: 100%; /* Ajuste conforme necessário */
+    display: block;
+    text-align: center; /* Centraliza o conteúdo */
+    margin: 10%;
+}
+
+.text-wrapper-9 p:nth-child(1) {
+    color: #000000;
+    font-size: 24px;
+    }
+    
+.text-wrapper-9 p:nth-child(2) {
+    font-size: 14px;
+    color: #777d77;
+    width: 90%;
+    margin: auto;
+
+    }
+
 
 
     
