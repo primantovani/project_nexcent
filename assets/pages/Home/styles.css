@@ -622,16 +622,9 @@ header{
     gap: 20px;
 }
 
+/* Fim desktop */
 
 
-
-  
-
-
-
-
-
-    
 /* Responsividade */
 
 @media(max-width: 767px) {
@@ -673,32 +666,30 @@ header{
         text-decoration: none;
         color: rgb(0, 0, 0);
     }
-    
-    .hero-text a{
-        color: rgb(255, 255, 255);
-        padding: 2px 4px;
-        border-radius: 1.3px;
-        font-size: 12px;
-    }
-    
+/* section-2 RESPONSIVO*/
     .hero-section {
-        display: flex;
+        width: 100%;
+        display: block;
+        padding-top: 10%;
+        padding-bottom: 10%;
     }
-
+    
+    
+    
     .ilustration {
         width: 100%;
-        height: 100%;
+        display: flex;
     }
-
+    
     .ilustration img{
-        max-width: 100%;
-        vertical-align: middle;
-        display: inline-block;
+        width: 100%;
+        align-items: center;
+        margin: auto;
     }
-
+    
     .hero-text{
         width: 100%;
-        flex-direction: column;
+        
     }
     
     .hero-section a {
@@ -710,14 +701,20 @@ header{
         border-radius: 5%;
         color: #F5F7FA;
     }
-
+    
+    .hero-text a{
+        color: rgb(255, 255, 255);
+        padding: 2px 4px;
+        border-radius: 1.3px;
+        font-size: 12px;
+    }
     .hero-text p:nth-child(1) {
         color: #060505;
         font-size: 22px;
     }
     
     .hero-text p:nth-child(2) {
-        color: #000000;
+        color: #11ca29;
         font-size: 22px;
     }
     
@@ -739,28 +736,43 @@ header{
     }
 
     .hero-section img{
-        width: 50%;
-        height: 50%;
-        margin-bottom: 5%;
-        
+        width: 60%;
     }
 
+/* section-3 RESPONSIVO*/
+
     .clients-logo{
-        max-width: 100%;
-        display: flex;
+        width: 100%;
         margin-top: 5%;
-        justify-content: space-around;
+    }
+    .center{
+        width: 100%;
     }
     
     .clients-logo img{
         width: 10%;
-        justify-content: center;
+        align-items: center;
+
         }
     
+    .clients-hero{
+        width: 100%;
+
+    }
+
+
+    .clients-text{
+        width: 100%;
+    }
+
+/* section-4 RESPONSIVO*/
+    
         .frame-for {
-            max-width: 100%;
+            width: 100%;
             display: block;
+
         }
+
         
         .membership, .national-associations, .clubs-group {
             max-width: 85%;
@@ -845,3 +857,41 @@ header{
     margin: 5%;
 }
 }
+
+/*rsponsividade footer*/
+
+
+.footer-dark {
+    background-color: #263238;
+    display: block;
+    justify-content: center;
+}
+
+
+.content {
+    width: 1140px;
+    justify-content:space-around;
+    display: block;
+}
+
+.box-1-footer{
+    margin: 3%;
+    width: 20%;
+    justify-content: center;
+}
+
+.box-1-footer img{
+    width: 90%;
+    margin-top: 10%;
+}
+
+
+.icon-footer img{
+    width: 8%;
+}
+
+
+
+
+
+
